@@ -5,7 +5,7 @@
 sudo dnf config-manager --set-enabled fedora-cisco-openh264
 
 # Install OpenH264 Firefox plugin
-sudo dnf install gstreamer1-plugin-openh264 mozilla-openh264
+sudo dnf install gstreamer1-plugin-openh264 mozilla-openh264 -y
 
 # Install ffmpeg libs
-sudo dnf install ffmpeg-libs
+sudo dnf install ffmpeg -y

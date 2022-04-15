@@ -11,4 +11,4 @@ gpgkey=https://download.opensuse.org/repositories/home:/sputnik:/look-and-feel/F
 enabled=1" | sudo tee -a /etc/yum.repos.d/sputnik-look-and-feel.repo
 
 # Install Lightly
-sudo dnf install Lightly
+sudo dnf install Lightly -y

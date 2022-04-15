@@ -5,4 +5,4 @@
  sudo wget https://yum.enpass.io/enpass-yum.repo
 
  # Install Enpass
- sudo yum install enpass
+ sudo yum install enpass -y
